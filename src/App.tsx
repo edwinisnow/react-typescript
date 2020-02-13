@@ -1,11 +1,13 @@
 import React from 'react';
-import { Card } from './components/Card'
+import { CardSimple } from './components/CardSimple'
 import './App.css';
+import { CardFunctional } from './components/CardFunctional';
 
 const App = () => {
   return (
     <div className="App">
-      <Card title="Welcome!" />
+      <CardSimple title="Card Simple" />
+      <CardFunctional title="Card Functional" />
     </div>
   );
 }
